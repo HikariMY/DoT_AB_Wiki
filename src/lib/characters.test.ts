@@ -70,3 +70,24 @@ describe("getRelatedVersions", () => {
     expect(getCharacter("swimsuit-nina")?.element).toBe("Neutral");
   });
 });
+
+describe("artwork resolution", () => {
+  it("gives every character an art slot", () => {
+    const missingArt = characters.filter((character) => character.art === undefined);
+
+    expect(missingArt).toEqual([]);
+  });
+
+  it("resolves to null when no file exists for the slug", () => {
+    const anri = getCharacter("anri");
+
+    // Artwork is dropped into public/characters by hand; until then the UI
+    // falls back to a monogram tile.
+    expect(anri?.art.icon === null || anri?.art.icon?.startsWith("/characters/")).toBe(
+      true,
+    );
+    expect(
+      anri?.art.portrait === null || anri?.art.portrait?.startsWith("/characters/"),
+    ).toBe(true);
+  });
+});

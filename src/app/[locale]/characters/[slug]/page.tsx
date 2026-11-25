@@ -11,7 +11,7 @@ import {
   RarityBadge,
   StanceTag,
 } from "@/components/badges";
-import { CharacterPortrait } from "@/components/character-portrait";
+import { CharacterKeyArt, CharacterPortrait } from "@/components/character-portrait";
 import { PassiveCard, SkillCard } from "@/components/skill-card";
 import { characters, getCharacter, getRelatedVersions } from "@/lib/characters";
 import { CREST_BONUS } from "@/lib/game";
@@ -74,6 +74,7 @@ export default async function CharacterPage({
           name={character.name}
           element={character.element}
           rarity={character.rarity}
+          icon={character.art.icon}
           size="lg"
         />
         <div className="min-w-0">
@@ -100,10 +101,19 @@ export default async function CharacterPage({
         </div>
       </header>
 
-      {detail?.description ? (
-        <p className="max-w-3xl text-sm leading-relaxed text-abyss-200">
-          {detail.description}
-        </p>
+      {character.art.portrait !== null || detail?.description ? (
+        <div className="grid gap-5 lg:grid-cols-[20rem_1fr] lg:items-start">
+          <CharacterKeyArt
+            name={character.name}
+            rarity={character.rarity}
+            portrait={character.art.portrait}
+          />
+          {detail?.description ? (
+            <p className="max-w-3xl text-sm leading-relaxed text-abyss-200">
+              {detail.description}
+            </p>
+          ) : null}
+        </div>
       ) : null}
 
       <section className="panel p-5">

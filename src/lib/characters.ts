@@ -1,9 +1,12 @@
 import rosterData from "@/data/roster.json";
+import imageManifestData from "@/data/image-manifest.json";
 import anriDetail from "@/data/details/anri.json";
 import {
   characterDetailSchema,
+  imageManifestSchema,
   rosterEntrySchema,
   type Character,
+  type CharacterArt,
   type CharacterDetail,
   type RosterEntry,
 } from "@/lib/schema";
@@ -55,10 +58,19 @@ function parseDetails(
 
 const roster = parseRoster();
 const details = parseDetails(roster);
+const images = imageManifestSchema.parse(imageManifestData);
+
+function artFor(slug: string): CharacterArt {
+  return {
+    icon: images.icons[slug] ?? null,
+    portrait: images.portraits[slug] ?? null,
+  };
+}
 
 export const characters: readonly Character[] = roster.map((entry) => ({
   ...entry,
   detail: details.get(entry.slug) ?? null,
+  art: artFor(entry.slug),
 }));
 
 export function getCharacter(slug: string): Character | undefined {

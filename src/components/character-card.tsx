@@ -18,6 +18,7 @@ export function CharacterCard({ character }: CharacterCardProps) {
           name={character.name}
           element={character.element}
           rarity={character.rarity}
+          icon={character.art.icon}
         />
         <div className="min-w-0">
           <p className="truncate font-medium text-abyss-100 group-hover:text-gold-400">

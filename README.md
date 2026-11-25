@@ -69,15 +69,29 @@ through `messages/th.json` and `messages/en.json`.
    `complete`, and refresh its `lastVerified` date.
 4. Run `npm run verify`.
 
+### Adding character artwork
+
+Artwork is resolved by slug from two folders, so adding a picture means adding
+a file:
+
+- `public/characters/icons/<slug>.webp` — square icon, around 128px.
+- `public/characters/portraits/<slug>.webp` — tall 3:4 key art.
+
+`npm run images` rescans both folders and rewrites `src/data/image-manifest.json`;
+`npm run dev` and `npm run build` run it first. A character without a file falls
+back to a monogram tile, so the gallery can be filled in gradually.
+
 ## Project layout
 
 ```
 messages/              translation catalogs (th, en)
+public/characters/     character icons and key art
 src/app/[locale]/      pages: home, characters, characters/[slug]
 src/components/        UI components
 src/data/              game data (JSON)
 src/i18n/              next-intl routing, request config, navigation
 src/lib/               schemas, data loading, game constants
+scripts/               build-time helpers (image manifest)
 src/proxy.ts           locale routing proxy (formerly middleware)
 ```
 

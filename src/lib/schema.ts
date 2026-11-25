@@ -149,6 +149,24 @@ export type CharacterDetail = z.infer<typeof characterDetailSchema>;
 export type Equipment = z.infer<typeof equipmentSchema>;
 export type ManaCrystal = z.infer<typeof manaCrystalSchema>;
 
+/**
+ * Artwork is addressed by slug, generated from the files in public/characters
+ * by scripts/generate-image-manifest.mjs. A missing entry is expected: the UI
+ * falls back to a themed monogram tile.
+ */
+export const imageManifestSchema = z.object({
+  icons: z.record(z.string(), z.string()),
+  portraits: z.record(z.string(), z.string()),
+});
+
+export type ImageManifest = z.infer<typeof imageManifestSchema>;
+
+export interface CharacterArt {
+  icon: string | null;
+  portrait: string | null;
+}
+
 export type Character = RosterEntry & {
   detail: CharacterDetail | null;
+  art: CharacterArt;
 };
