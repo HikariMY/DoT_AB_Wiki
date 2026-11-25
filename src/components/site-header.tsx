@@ -21,6 +21,7 @@ export function SiteHeader() {
         <nav className="ml-auto flex items-center gap-1 text-sm">
           <HeaderLink href="/">{t("home")}</HeaderLink>
           <HeaderLink href="/characters">{t("characters")}</HeaderLink>
+          <HeaderLink href="/equipment">{t("equipment")}</HeaderLink>
         </nav>
         <LocaleSwitcher label={t("language")} />
       </div>
@@ -29,7 +30,7 @@ export function SiteHeader() {
 }
 
 interface HeaderLinkProps {
-  href: "/" | "/characters";
+  href: "/" | "/characters" | "/equipment";
   children: React.ReactNode;
 }
 

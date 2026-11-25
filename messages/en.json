@@ -7,6 +7,7 @@
   "nav": {
     "home": "Home",
     "characters": "Characters",
+    "equipment": "Equipment",
     "guides": "Guides",
     "language": "Language"
   },
@@ -78,6 +79,33 @@
     "noDetailTitle": "No skill data yet",
     "noDetailBody": "Only roster-level data is recorded for this character. Skills and passives are being added batch by batch.",
     "awakeningNote": "SSR units have 2 passive slots, SR and R have 1. Awakening effects are unlocked by Limit Break with duplicates and exist only on SSR."
+  },
+  "equipment": {
+    "title": "Equipment",
+    "subtitle": "{gear} weapons and gear · {crystals} mana crystals",
+    "tabGear": "Weapons and gear",
+    "tabCrystals": "Mana crystals",
+    "filterClass": "Class",
+    "filterCrest": "Crest",
+    "all": "All",
+    "partyUnique": "One per party",
+    "partyUniqueNote": "The effect activates for only one copy per party; a second has no extra effect.",
+    "eventOnly": "Event",
+    "noCrest": "No crest",
+    "resultCount": "{count} of {total} items",
+    "empty": "No equipment matches these filters.",
+    "clearFilters": "Clear filters",
+    "onlyPartyUnique": "One per party only",
+    "equippedBy": "Equipped by",
+    "anyStance": "Any stance",
+    "crystalSlot": "Slot",
+    "crystalCost": "Cost",
+    "crystalMaxChain": "Max chain",
+    "crystalForceChain": "Force Chain",
+    "crystalAdditional": "Force Chain additional effect",
+    "crystalAuto": "Auto-play condition",
+    "crystalNote": "An additional effect needs an ally in the chain holding its crest at level 5 or higher, and scales with the number of qualifying participants.",
+    "noStats": "The source page publishes no stat values or rarity tiers for equipment, so neither is recorded here."
   },
   "dataStatus": {
     "label": "Data status",

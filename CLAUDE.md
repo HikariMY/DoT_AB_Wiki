@@ -73,10 +73,19 @@ wiki's files.
 
 ## Task: add a new content type
 
-Equipment, mana crystals, enemies and events follow the same shape as
-characters: a Zod schema in `src/lib/schema.ts`, a JSON file in `src/data`, a
-loader that parses it at module scope, then pages. `equipmentSchema` and
-`manaCrystalSchema` already exist and have no data files yet.
+Enemies and events follow the same shape as characters and equipment: a Zod
+schema in `src/lib/schema.ts`, a JSON file in `src/data`, a loader that parses
+it at module scope, then pages.
+
+Equipment is already built. `src/data/equipment.json` holds 48 weapons and gear
+pieces, `src/data/mana-crystals.json` holds the 11 crystals, and
+[`src/lib/equipment.ts`](src/lib/equipment.ts) parses both. Two conventions
+there are worth keeping:
+
+- The "(Effect activates only for 1 per party)" clause is lifted out of the
+  effect text into the `partyUnique` flag, so the UI shows it as a badge
+  instead of repeating it in prose.
+- "(Event)" is stripped from the name and recorded as `eventOnly`.
 
 ## Verification
 
@@ -97,6 +106,12 @@ something imported a server-only API by accident.
 - Skill and passive text is English only. The UI is translated; the game data
   is not.
 - No stat values anywhere: the sources publish multipliers and effects, not
-  base stat numbers.
-- Not built yet: team builder, equipment pages, enemies, events, guides,
-  tier list.
+  base stat numbers. The Weapons page likewise has no rarity or stat columns,
+  so equipment records carry neither.
+- Equipment effect text is condensed from the source: every number, bracket
+  value, duration and mechanic name is preserved verbatim, but connective
+  wording is shortened. Re-read the source before quoting an effect exactly.
+- 26 of the 48 equipment rows carry the party-unique clause. An earlier
+  reading of the source counted 29; the row-level data here is what was
+  actually read, so re-check the source if the count matters.
+- Not built yet: team builder, enemies, events, guides, tier list.

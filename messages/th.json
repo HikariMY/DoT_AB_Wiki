@@ -7,6 +7,7 @@
   "nav": {
     "home": "หน้าแรก",
     "characters": "ตัวละคร",
+    "equipment": "อุปกรณ์",
     "guides": "ไกด์",
     "language": "ภาษา"
   },
@@ -78,6 +79,33 @@
     "noDetailTitle": "ยังไม่มีข้อมูลสกิล",
     "noDetailBody": "ตัวนี้มีแต่ข้อมูลพื้นฐานจากตารางรวม ข้อมูลสกิลและ Passive กำลังทยอยเพิ่ม",
     "awakeningNote": "SSR มี Passive 2 ช่อง SR และ R มี 1 ช่อง เอฟเฟกต์ Awakening ปลดด้วยการ Limit Break ด้วยตัวซ้ำ และมีเฉพาะ SSR"
+  },
+  "equipment": {
+    "title": "อุปกรณ์",
+    "subtitle": "อาวุธและเกราะ {gear} ชิ้น · Mana Crystal {crystals} ชิ้น",
+    "tabGear": "อาวุธและเกราะ",
+    "tabCrystals": "Mana Crystal",
+    "filterClass": "ประเภท",
+    "filterCrest": "ตรา",
+    "all": "ทั้งหมด",
+    "partyUnique": "จำกัด 1 ชิ้นต่อทีม",
+    "partyUniqueNote": "เอฟเฟกต์ทำงานแค่ชิ้นเดียวต่อทีม ใส่ซ้ำไม่ได้ผลเพิ่ม",
+    "eventOnly": "ของอีเวนต์",
+    "noCrest": "ไม่ผูกตรา",
+    "resultCount": "พบ {count} จาก {total} ชิ้น",
+    "empty": "ไม่พบอุปกรณ์ที่ตรงกับตัวกรอง",
+    "clearFilters": "ล้างตัวกรอง",
+    "onlyPartyUnique": "เฉพาะจำกัด 1 ชิ้น",
+    "equippedBy": "ใส่ได้โดย",
+    "anyStance": "ทุกตำแหน่ง",
+    "crystalSlot": "ช่อง",
+    "crystalCost": "Cost",
+    "crystalMaxChain": "Chain สูงสุด",
+    "crystalForceChain": "Force Chain",
+    "crystalAdditional": "เอฟเฟกต์เพิ่มของ Force Chain",
+    "crystalAuto": "เงื่อนไขตอนออโต้",
+    "crystalNote": "เอฟเฟกต์เพิ่มต้องมีเพื่อนร่วมเชนที่ถือตราระดับ 5 ขึ้นไป แรงขึ้นตามจำนวนคนที่เข้าเงื่อนไข",
+    "noStats": "หน้าต้นทางไม่ได้ลงค่าสเตตัสและระดับความหายากของอุปกรณ์ จึงไม่มีข้อมูลสองอย่างนี้"
   },
   "dataStatus": {
     "label": "สถานะข้อมูล",

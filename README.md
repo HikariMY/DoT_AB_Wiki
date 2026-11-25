@@ -48,6 +48,8 @@ roster-level data only and gain detail later.
   `affiliation`, `weaponClass`, `dataStatus`, `source` and `lastVerified`.
 - `src/data/details/<slug>.json` — profile, description, skills, passives, bond
   passive and facility skill for one character.
+- `src/data/equipment.json` — 48 weapons and gear pieces.
+- `src/data/mana-crystals.json` — the 11 mana crystals.
 
 Both shapes are defined in [`src/lib/schema.ts`](src/lib/schema.ts) with Zod and
 parsed in [`src/lib/characters.ts`](src/lib/characters.ts). The loader fails the
