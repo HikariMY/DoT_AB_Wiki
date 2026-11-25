@@ -4,6 +4,7 @@ import type {
   Element,
   Rarity,
   Stance,
+  WeaponClass,
 } from "@/lib/schema";
 
 /**
@@ -101,8 +102,17 @@ export const PARTY_SIZE = 10;
 export const RECOMMENDED_FRONT = 4;
 export const RECOMMENDED_BACK = 3;
 
-export const WEAPON_CLASS_BY_STANCE: Record<Stance, readonly string[]> = {
+export const WEAPON_CLASS_BY_STANCE: Record<Stance, readonly WeaponClass[]> = {
   Front: ["One-Handed Sword", "Greatsword", "Fists"],
   Back: ["Bow", "Staff", "Gun", "Grimoire"],
   Assist: ["Pickaxe"],
 };
+
+export const WEAPON_CLASSES: readonly WeaponClass[] = [
+  ...WEAPON_CLASS_BY_STANCE.Front,
+  ...WEAPON_CLASS_BY_STANCE.Back,
+  ...WEAPON_CLASS_BY_STANCE.Assist,
+];
+
+/** The healer class. Documented as the only one that restores ally HP. */
+export const HEALER_WEAPON_CLASS: WeaponClass = "Grimoire";

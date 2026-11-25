@@ -74,6 +74,23 @@ export const characterProfileSchema = z.object({
   howToRecruit: z.string().nullable().default(null),
 });
 
+export const armorTypeSchema = z.enum([
+  "Armor",
+  "Mantle",
+  "Work Clothes",
+  "Clothes",
+]);
+
+/**
+ * Base values at Lv30 with 5 limit breaks, excluding ability and facility
+ * modifiers. That is the basis the source table publishes.
+ */
+export const baseStatsSchema = z.object({
+  hp: z.number().int().positive(),
+  attack: z.number().int().positive(),
+  defense: z.number().int().positive(),
+});
+
 /** Roster-level record: the one row every character is guaranteed to have. */
 export const rosterEntrySchema = z.object({
   slug: z
@@ -88,6 +105,15 @@ export const rosterEntrySchema = z.object({
   crest: crestSchema,
   affiliation: affiliationSchema,
   weaponClass: weaponClassSchema.nullable().default(null),
+  armorType: armorTypeSchema.nullable().default(null),
+  baseStats: baseStatsSchema.nullable().default(null),
+  /** Where the stat block came from, when it differs from `source`. */
+  statsSource: z.string().min(1).nullable().default(null),
+  /**
+   * Set when sources disagree about this character. The page shows it rather
+   * than silently picking a side.
+   */
+  dataConflict: z.string().min(1).nullable().default(null),
   dataStatus: dataStatusSchema.default("stub"),
   source: z.string().min(1),
   lastVerified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
@@ -134,6 +160,21 @@ export const manaCrystalSchema = z.object({
   lastVerified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
 });
 
+/**
+ * A party published by an outside site. Only the roster is recorded; the
+ * label and any commentary are written here, and the source is credited.
+ */
+export const recommendedTeamSchema = z.object({
+  slug: z.string().regex(/^[a-z0-9-]+$/),
+  members: z.array(z.string().regex(/^[a-z0-9-]+$/)).min(1).max(10),
+  credit: z.string().min(1),
+  source: z.string().url(),
+  lastVerified: z.string().regex(/^\d{4}-\d{2}-\d{2}$/),
+});
+
+export type ArmorType = z.infer<typeof armorTypeSchema>;
+export type BaseStats = z.infer<typeof baseStatsSchema>;
+export type RecommendedTeam = z.infer<typeof recommendedTeamSchema>;
 export type Element = z.infer<typeof elementSchema>;
 export type Stance = z.infer<typeof stanceSchema>;
 export type Crest = z.infer<typeof crestSchema>;

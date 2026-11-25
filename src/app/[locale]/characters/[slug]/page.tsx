@@ -13,8 +13,9 @@ import {
 } from "@/components/badges";
 import { CharacterKeyArt, CharacterPortrait } from "@/components/character-portrait";
 import { PassiveCard, SkillCard } from "@/components/skill-card";
+import { StatTable } from "@/components/stat-table";
 import { characters, getCharacter, getRelatedVersions } from "@/lib/characters";
-import { CREST_BONUS } from "@/lib/game";
+import { CREST_BONUS, HEALER_WEAPON_CLASS } from "@/lib/game";
 
 type PageParams = { locale: string; slug: string };
 
@@ -97,6 +98,12 @@ export default async function CharacterPage({
             {character.weaponClass !== null
               ? ` · ${t("weaponClass")}: ${character.weaponClass}`
               : ""}
+            {character.armorType !== null
+              ? ` · ${t("armorType")}: ${character.armorType}`
+              : ""}
+            {character.weaponClass === HEALER_WEAPON_CLASS
+              ? ` · ${t("healer")}`
+              : ""}
           </p>
         </div>
       </header>
@@ -116,13 +123,38 @@ export default async function CharacterPage({
         </div>
       ) : null}
 
-      <section className="panel p-5">
-        <h2 className="panel-heading">{character.crest}</h2>
-        <ul className="mt-2 space-y-0.5 text-sm text-abyss-200">
-          {CREST_BONUS[character.crest].map((bonus) => (
-            <li key={bonus}>{bonus}</li>
-          ))}
-        </ul>
+      {character.dataConflict !== null ? (
+        <section className="rounded-panel border border-gold-600/40 bg-gold-500/5 p-4">
+          <h2 className="panel-heading">{t("conflictTitle")}</h2>
+          <p className="mt-1 text-sm leading-relaxed text-abyss-200">
+            {character.dataConflict}
+          </p>
+        </section>
+      ) : null}
+
+      <section className="grid gap-3 lg:grid-cols-2">
+        {character.baseStats !== null ? (
+          <div className="panel p-5">
+            <h2 className="panel-heading mb-3">{t("statsTitle")}</h2>
+            <StatTable
+              stats={character.baseStats}
+              labels={{
+                hp: t("statHp"),
+                attack: t("statAttack"),
+                defense: t("statDefense"),
+              }}
+            />
+            <p className="mt-3 text-xs text-abyss-500">{t("statsBasis")}</p>
+          </div>
+        ) : null}
+        <div className="panel p-5">
+          <h2 className="panel-heading">{character.crest}</h2>
+          <ul className="mt-2 space-y-0.5 text-sm text-abyss-200">
+            {CREST_BONUS[character.crest].map((bonus) => (
+              <li key={bonus}>{bonus}</li>
+            ))}
+          </ul>
+        </div>
       </section>
 
       {detail === null ? (
@@ -222,6 +254,20 @@ export default async function CharacterPage({
 
       <footer className="text-xs text-abyss-400">
         {tStatus("lastVerified", { date: character.lastVerified })} ·{" "}
+        {character.statsSource !== null ? (
+          <>
+            {t("statsSource")}:{" "}
+            <a
+              href={character.statsSource}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="underline-offset-4 hover:text-gold-400 hover:underline"
+            >
+              {character.statsSource}
+            </a>{" "}
+            ·{" "}
+          </>
+        ) : null}
         {tStatus("source")}:{" "}
         <a
           href={detail?.source ?? character.source}

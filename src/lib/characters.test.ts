@@ -91,3 +91,47 @@ describe("artwork resolution", () => {
     ).toBe(true);
   });
 });
+
+describe("gear and stat data", () => {
+  it("records a weapon class for every character except the disputed one", () => {
+    const missing = characters
+      .filter((character) => character.weaponClass === null)
+      .map((character) => character.slug);
+
+    expect(missing).toEqual(["kururu"]);
+  });
+
+  it("explains why the disputed character has no weapon class", () => {
+    expect(getCharacter("kururu")?.dataConflict).toContain("Front-only weapon");
+  });
+
+  it("keeps every weapon class within what the stance can equip", () => {
+    const allowed: Record<string, readonly string[]> = {
+      Front: ["One-Handed Sword", "Greatsword", "Fists"],
+      Back: ["Bow", "Staff", "Gun", "Grimoire"],
+      Assist: ["Pickaxe"],
+    };
+
+    const mismatched = characters.filter(
+      (character) =>
+        character.weaponClass !== null &&
+        !allowed[character.stance]?.includes(character.weaponClass),
+    );
+
+    expect(mismatched).toEqual([]);
+  });
+
+  it("records base stats and armor type for the whole roster", () => {
+    expect(characters.filter((c) => c.baseStats === null)).toEqual([]);
+    expect(characters.filter((c) => c.armorType === null)).toEqual([]);
+  });
+
+  it("keeps stats positive and credits where they came from", () => {
+    for (const character of characters) {
+      expect(character.baseStats?.hp).toBeGreaterThan(0);
+      expect(character.baseStats?.attack).toBeGreaterThan(0);
+      expect(character.baseStats?.defense).toBeGreaterThan(0);
+      expect(character.statsSource).toContain("wikiru");
+    }
+  });
+});

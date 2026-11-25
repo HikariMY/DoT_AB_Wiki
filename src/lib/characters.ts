@@ -10,7 +10,7 @@ import {
   type CharacterDetail,
   type RosterEntry,
 } from "@/lib/schema";
-import { CREST_BY_ELEMENT } from "@/lib/game";
+import { CREST_BY_ELEMENT, WEAPON_CLASS_BY_STANCE } from "@/lib/game";
 
 /**
  * Details are imported explicitly rather than globbed so that a malformed or
@@ -32,6 +32,13 @@ function parseRoster(): readonly RosterEntry[] {
     if (entry.crest !== expectedCrest) {
       throw new Error(
         `${entry.name}: element ${entry.element} implies crest ${expectedCrest}, got ${entry.crest}`,
+      );
+    }
+
+    const allowedWeapons = WEAPON_CLASS_BY_STANCE[entry.stance];
+    if (entry.weaponClass !== null && !allowedWeapons.includes(entry.weaponClass)) {
+      throw new Error(
+        `${entry.name}: stance ${entry.stance} cannot equip ${entry.weaponClass}`,
       );
     }
   }

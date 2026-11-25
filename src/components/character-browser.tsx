@@ -22,6 +22,7 @@ import {
   RARITIES,
   RARITY_COLOR_CLASS,
   STANCES,
+  WEAPON_CLASSES,
 } from "@/lib/game";
 import type {
   Affiliation,
@@ -30,6 +31,7 @@ import type {
   Element,
   Rarity,
   Stance,
+  WeaponClass,
 } from "@/lib/schema";
 
 interface Filters {
@@ -38,6 +40,7 @@ interface Filters {
   crest: Crest | null;
   rarity: Rarity | null;
   affiliation: Affiliation | null;
+  weaponClass: WeaponClass | null;
 }
 
 const EMPTY_FILTERS: Filters = {
@@ -46,6 +49,7 @@ const EMPTY_FILTERS: Filters = {
   crest: null,
   rarity: null,
   affiliation: null,
+  weaponClass: null,
 };
 
 type ViewMode = "grid" | "table";
@@ -84,7 +88,9 @@ export function CharacterBrowser({ characters }: CharacterBrowserProps) {
         (filters.crest === null || character.crest === filters.crest) &&
         (filters.rarity === null || character.rarity === filters.rarity) &&
         (filters.affiliation === null ||
-          character.affiliation === filters.affiliation),
+          character.affiliation === filters.affiliation) &&
+        (filters.weaponClass === null ||
+          character.weaponClass === filters.weaponClass),
     );
   }, [characters, filters, fuse, query]);
 
@@ -151,6 +157,15 @@ export function CharacterBrowser({ characters }: CharacterBrowserProps) {
             value={filters.crest}
             onChange={(crest) => setFilters({ ...filters, crest })}
           />
+          <div className="sm:col-span-2 lg:col-span-3">
+            <FilterGroup
+              label={t("filterWeapon")}
+              allLabel={t("all")}
+              options={WEAPON_CLASSES}
+              value={filters.weaponClass}
+              onChange={(weaponClass) => setFilters({ ...filters, weaponClass })}
+            />
+          </div>
           <div className="sm:col-span-2">
             <FilterGroup
               label={t("filterAffiliation")}

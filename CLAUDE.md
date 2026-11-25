@@ -14,8 +14,13 @@ Read this before touching anything. The procedures below are the baseline.
    use `null` — never a plausible guess. A wrong stat is worse than a missing
    one.
 2. **Miraheze is the text source** (CC BY-SA 4.0, attribution and share-alike).
-   **GameWith is for cross-checking facts only** — its terms forbid reusing its
-   text, so never copy its wording.
+   **wikiru** supplies the stat, weapon and armor tables and is credited per
+   record in `statsSource`. **GameWith's wording is never reused** — its terms
+   forbid it. Bare facts taken from GameWith (which units make up a published
+   team, a tier label) are recorded with a credit and a link, and every word of
+   explanation around them is written here. If you need to describe why a team
+   works, derive it from the mechanics in this repo rather than restating what
+   the source said.
 3. **Keep game vocabulary verbatim** in the data: `Front`, `Back`, `Assist`,
    `Passion`, `Impact`, `SSR`, element names. Translation belongs in
    `messages/*.json`, never in `src/data`.
@@ -105,9 +110,16 @@ something imported a server-only API by accident.
   `Sheryl` may be alternate romanisations of `Gemma` and `Cheryl`.
 - Skill and passive text is English only. The UI is translated; the game data
   is not.
-- No stat values anywhere: the sources publish multipliers and effects, not
-  base stat numbers. The Weapons page likewise has no rarity or stat columns,
-  so equipment records carry neither.
+- Character base stats are recorded (Lv30, 5 limit breaks, before ability and
+  facility bonuses) from wikiru. Two pairs share an identical stat triple and
+  may be a wiki copy-paste: Hatsune and Henrietta (3364/1168/1432), and Liella
+  and Faris (3020/1848/940). Verify in game before relying on them.
+- The Weapons page has no rarity or stat columns, so equipment records carry
+  neither.
+- `Kururu` (base SR) has no weapon class: the Dot Abyss Wiki calls her
+  Dark/Back/Impact while wikiru calls her Earth/Front/Passion with Fists. Her
+  `dataConflict` field explains it and the page shows it. Do not resolve this
+  from a wiki; it needs an in-game check.
 - Equipment effect text is condensed from the source: every number, bracket
   value, duration and mechanic name is preserved verbatim, but connective
   wording is shortened. Re-read the source before quoting an effect exactly.
@@ -116,7 +128,11 @@ something imported a server-only API by accident.
   actually read, so re-check the source if the count matters.
 - Not built yet: enemies, events, guides, tier list.
 - The team builder checks only what the data supports: stance balance against
-  the Front 4 / Back 3 baseline, Assist coverage, and crest majority. It cannot
-  check for a healer or apply the same-element healing rule, because weapon
-  class is recorded for almost no one. Do not add a check that pretends
-  otherwise.
+  the Front 4 / Back 3 baseline, Assist coverage, crest majority, healer
+  presence (weapon class Grimoire) and same-element healing overlap. It cannot
+  compute the Assist bonus, which the game derives from a player's own Assist
+  stats. Do not add a check that pretends otherwise.
+- `src/data/recommended-teams.json` stores published party rosters as member
+  slugs plus a credit and a link, nothing else. Their labels and the analysis
+  shown beside them live in `messages/*.json` under `team.presets` and
+  `team.presetNotes` and are written here from the mechanics, never copied.

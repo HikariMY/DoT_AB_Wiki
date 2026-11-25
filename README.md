@@ -50,6 +50,9 @@ roster-level data only and gain detail later.
   passive and facility skill for one character.
 - `src/data/equipment.json` — 48 weapons and gear pieces.
 - `src/data/mana-crystals.json` — the 11 mana crystals.
+- `src/data/recommended-teams.json` — published party rosters, stored as member
+  slugs with a credit and a link. Labels and analysis live in the message
+  catalogs and are written here, not copied from the source.
 
 Both shapes are defined in [`src/lib/schema.ts`](src/lib/schema.ts) with Zod and
 parsed in [`src/lib/characters.ts`](src/lib/characters.ts). The loader fails the

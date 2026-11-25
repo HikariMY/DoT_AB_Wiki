@@ -8,10 +8,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3232,
+      "attack": 1192,
+      "defense": 1384
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "anri",
@@ -25,7 +33,15 @@
     "weaponClass": "Fists",
     "dataStatus": "partial",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2772,
+      "attack": 1188,
+      "defense": 1172
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "ashley",
@@ -36,10 +52,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2876,
+      "attack": 1568,
+      "defense": 1076
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "awakened-verisa",
@@ -50,10 +74,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3108,
+      "attack": 1824,
+      "defense": 772
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "chihiro",
@@ -64,10 +96,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2504,
+      "attack": 1244,
+      "defense": 1164
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "christie",
@@ -78,10 +118,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3196,
+      "attack": 1744,
+      "defense": 844
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "diana",
@@ -92,10 +140,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2808,
+      "attack": 1472,
+      "defense": 1160
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "electra",
@@ -106,10 +162,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3400,
+      "attack": 2008,
+      "defense": 968
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "eliza",
@@ -120,10 +184,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3152,
+      "attack": 1212,
+      "defense": 1068
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "emily",
@@ -134,10 +206,18 @@
     "stance": "Assist",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 3520,
+      "attack": 1320,
+      "defense": 968
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "etia",
@@ -148,10 +228,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3272,
+      "attack": 1868,
+      "defense": 828
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "faris",
@@ -162,10 +250,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3020,
+      "attack": 1848,
+      "defense": 940
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "feltuna",
@@ -176,10 +272,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3048,
+      "attack": 1744,
+      "defense": 896
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "film",
@@ -190,10 +294,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3276,
+      "attack": 1424,
+      "defense": 1212
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "fiona",
@@ -204,10 +316,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2836,
+      "attack": 1276,
+      "defense": 1004
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "frederica",
@@ -218,10 +338,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2772,
+      "attack": 1320,
+      "defense": 1388
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "gladia",
@@ -232,10 +360,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Clothes",
+    "baseStats": {
+      "hp": 2480,
+      "attack": 1540,
+      "defense": 1468
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "hatsune",
@@ -246,10 +382,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3364,
+      "attack": 1168,
+      "defense": 1432
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "henrietta",
@@ -260,10 +404,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3364,
+      "attack": 1168,
+      "defense": 1432
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "hinagi",
@@ -274,10 +426,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3180,
+      "attack": 1164,
+      "defense": 1576
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "honoka",
@@ -288,10 +448,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 3236,
+      "attack": 1136,
+      "defense": 1460
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "humena",
@@ -302,10 +470,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2628,
+      "attack": 1340,
+      "defense": 936
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "kotono",
@@ -316,10 +492,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3460,
+      "attack": 1320,
+      "defense": 1232
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "kureha",
@@ -330,10 +514,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3460,
+      "attack": 992,
+      "defense": 1644
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "laveria",
@@ -344,10 +536,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3672,
+      "attack": 1652,
+      "defense": 1216
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "leviene",
@@ -358,10 +558,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2404,
+      "attack": 1460,
+      "defense": 1064
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "liella",
@@ -372,10 +580,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3020,
+      "attack": 1848,
+      "defense": 940
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "lycorit",
@@ -386,10 +602,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3268,
+      "attack": 1128,
+      "defense": 1040
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "magnolia",
@@ -400,10 +624,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3000,
+      "attack": 1532,
+      "defense": 1124
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "meibel",
@@ -414,10 +646,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3512,
+      "attack": 1220,
+      "defense": 1180
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "melissa",
@@ -428,10 +668,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 3236,
+      "attack": 1056,
+      "defense": 1520
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "mykola",
@@ -442,10 +690,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3084,
+      "attack": 1880,
+      "defense": 900
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "myrtille",
@@ -456,10 +712,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3448,
+      "attack": 1376,
+      "defense": 1424
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "naia",
@@ -470,10 +734,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3264,
+      "attack": 1340,
+      "defense": 1296
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "nina",
@@ -484,10 +756,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2688,
+      "attack": 1240,
+      "defense": 1164
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "orelina",
@@ -498,10 +778,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3364,
+      "attack": 1324,
+      "defense": 1260
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "paulina",
@@ -512,10 +800,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2592,
+      "attack": 1608,
+      "defense": 880
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "pico",
@@ -526,10 +822,18 @@
     "stance": "Assist",
     "crest": "Impact",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 3336,
+      "attack": 1504,
+      "defense": 1484
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "ramona",
@@ -540,10 +844,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2896,
+      "attack": 1400,
+      "defense": 1172
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "rusita",
@@ -554,10 +866,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3040,
+      "attack": 1880,
+      "defense": 888
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "scarlet",
@@ -568,10 +888,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3420,
+      "attack": 1036,
+      "defense": 1572
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "stemia",
@@ -582,10 +910,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3232,
+      "attack": 1216,
+      "defense": 1360
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "swimsuit-hailey",
@@ -596,10 +932,18 @@
     "stance": "Assist",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Clothes",
+    "baseStats": {
+      "hp": 3080,
+      "attack": 1360,
+      "defense": 1280
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "swimsuit-honoka",
@@ -610,10 +954,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2880,
+      "attack": 1600,
+      "defense": 1056
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "swimsuit-kururu",
@@ -624,10 +976,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3340,
+      "attack": 1424,
+      "defense": 1176
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "swimsuit-nina",
@@ -638,10 +998,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2828,
+      "attack": 1524,
+      "defense": 1076
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "sylaise",
@@ -652,10 +1020,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2612,
+      "attack": 1712,
+      "defense": 1076
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "sylvia",
@@ -666,10 +1042,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3764,
+      "attack": 1116,
+      "defense": 1748
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "veera",
@@ -680,10 +1064,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2904,
+      "attack": 1744,
+      "defense": 1256
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "vespera",
@@ -694,10 +1086,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2904,
+      "attack": 1068,
+      "defense": 1496
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "wendy",
@@ -708,10 +1108,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 3492,
+      "attack": 1220,
+      "defense": 1312
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "wisteria",
@@ -722,10 +1130,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2508,
+      "attack": 1848,
+      "defense": 992
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "yuri",
@@ -736,10 +1152,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 3140,
+      "attack": 1308,
+      "defense": 1308
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "aina",
@@ -750,10 +1174,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1944,
+      "attack": 1268,
+      "defense": 752
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "aisha",
@@ -764,10 +1196,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2092,
+      "attack": 1140,
+      "defense": 784
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "ayame",
@@ -778,10 +1218,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2256,
+      "attack": 1412,
+      "defense": 632
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "carla",
@@ -792,10 +1240,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2060,
+      "attack": 1068,
+      "defense": 864
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "dahlia",
@@ -806,10 +1262,18 @@
     "stance": "Assist",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 2240,
+      "attack": 960,
+      "defense": 816
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "emelda",
@@ -820,10 +1284,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1864,
+      "attack": 1220,
+      "defense": 768
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "gemma",
@@ -834,10 +1306,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 2240,
+      "attack": 1040,
+      "defense": 840
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "hailey",
@@ -848,10 +1328,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2912,
+      "attack": 728,
+      "defense": 1164
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "himari",
@@ -862,10 +1350,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Lux Nova",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 3168,
+      "attack": 1640,
+      "defense": 952
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "iola",
@@ -876,10 +1372,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2148,
+      "attack": 720,
+      "defense": 1040
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "kururu",
@@ -893,7 +1397,15 @@
     "weaponClass": null,
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2000,
+      "attack": 864,
+      "defense": 920
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": "Sources disagree about this unit. The Dot Abyss Wiki lists her as Dark / Back / Impact, while wikiru lists her as Earth / Front / Passion with Fists, a Front-only weapon. Weapon class is left blank until the game itself can settle it."
   },
   {
     "slug": "lime",
@@ -904,10 +1416,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1784,
+      "attack": 1412,
+      "defense": 740
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "margaret",
@@ -918,10 +1438,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1800,
+      "attack": 1100,
+      "defense": 1040
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "marina",
@@ -932,10 +1460,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 2240,
+      "attack": 960,
+      "defense": 960
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "rosa",
@@ -946,10 +1482,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2556,
+      "attack": 748,
+      "defense": 1152
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "sophia",
@@ -960,10 +1504,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2884,
+      "attack": 676,
+      "defense": 1112
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "verisa",
@@ -974,10 +1526,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2172,
+      "attack": 1176,
+      "defense": 772
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "betty",
@@ -988,10 +1548,18 @@
     "stance": "Assist",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 1120,
+      "attack": 1504,
+      "defense": 536
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "celeste",
@@ -1002,10 +1570,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 1748,
+      "attack": 872,
+      "defense": 852
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "cheryl",
@@ -1016,10 +1592,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1520,
+      "attack": 1424,
+      "defense": 664
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "chloe",
@@ -1030,10 +1614,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1748,
+      "attack": 1016,
+      "defense": 700
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "elmia",
@@ -1044,10 +1636,18 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1788,
+      "attack": 1108,
+      "defense": 616
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "feilin",
@@ -1058,10 +1658,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Greatsword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2188,
+      "attack": 768,
+      "defense": 876
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "freya",
@@ -1072,10 +1680,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Milesgard",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2052,
+      "attack": 752,
+      "defense": 940
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "luca",
@@ -1086,10 +1702,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 1852,
+      "attack": 828,
+      "defense": 720
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "merem",
@@ -1100,10 +1724,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1760,
+      "attack": 960,
+      "defense": 720
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "noemi",
@@ -1114,10 +1746,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Grimoire",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 2400,
+      "attack": 720,
+      "defense": 740
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "rita",
@@ -1128,10 +1768,18 @@
     "stance": "Front",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "One-Handed Sword",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 2216,
+      "attack": 612,
+      "defense": 1036
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "shannon",
@@ -1142,10 +1790,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Eldorana",
-    "weaponClass": null,
+    "weaponClass": "Gun",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1836,
+      "attack": 1240,
+      "defense": 532
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "steela",
@@ -1156,10 +1812,18 @@
     "stance": "Assist",
     "crest": "Impact",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Pickaxe",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Work Clothes",
+    "baseStats": {
+      "hp": 1844,
+      "attack": 744,
+      "defense": 1020
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "teru",
@@ -1170,10 +1834,18 @@
     "stance": "Back",
     "crest": "Passion",
     "affiliation": "Perdion",
-    "weaponClass": null,
+    "weaponClass": "Bow",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1756,
+      "attack": 848,
+      "defense": 812
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "xiaolei",
@@ -1184,10 +1856,18 @@
     "stance": "Front",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Fists",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Armor",
+    "baseStats": {
+      "hp": 1852,
+      "attack": 792,
+      "defense": 720
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   },
   {
     "slug": "yachiyo",
@@ -1198,9 +1878,17 @@
     "stance": "Back",
     "crest": "Impact",
     "affiliation": "Coalition",
-    "weaponClass": null,
+    "weaponClass": "Staff",
     "dataStatus": "stub",
     "source": "https://dotabyss.miraheze.org/wiki/Characters",
-    "lastVerified": "2026-11-25"
+    "lastVerified": "2026-11-25",
+    "armorType": "Mantle",
+    "baseStats": {
+      "hp": 1708,
+      "attack": 1176,
+      "defense": 588
+    },
+    "statsSource": "https://dotabyss.wikiru.jp/",
+    "dataConflict": null
   }
 ]

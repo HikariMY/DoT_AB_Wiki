@@ -57,7 +57,8 @@
     "columnStance": "Stance",
     "columnCrest": "Crest",
     "columnAffiliation": "Affiliation",
-    "columnData": "Data"
+    "columnData": "Data",
+    "filterWeapon": "Weapon"
   },
   "character": {
     "backToList": "Back to characters",
@@ -79,7 +80,16 @@
     "affiliation": "Affiliation",
     "noDetailTitle": "No skill data yet",
     "noDetailBody": "Only roster-level data is recorded for this character. Skills and passives are being added batch by batch.",
-    "awakeningNote": "SSR units have 2 passive slots, SR and R have 1. Awakening effects are unlocked by Limit Break with duplicates and exist only on SSR."
+    "awakeningNote": "SSR units have 2 passive slots, SR and R have 1. Awakening effects are unlocked by Limit Break with duplicates and exist only on SSR.",
+    "statsTitle": "Base stats",
+    "statsBasis": "At Lv30 with 5 limit breaks, before ability and facility bonuses.",
+    "statHp": "HP",
+    "statAttack": "Attack",
+    "statDefense": "Defense",
+    "armorType": "Armor",
+    "healer": "Healer",
+    "conflictTitle": "Sources disagree",
+    "statsSource": "Stats source"
   },
   "equipment": {
     "title": "Equipment",
@@ -137,7 +147,29 @@
     "noticeNoAssist": "No Assist unit. The party is giving up the stat bonus Assist units grant for free.",
     "noticeCrestMinority": "{count} unit(s) hold Crest: {minority} while the team leans {dominant}. They gain nothing from effects that target {dominant}.",
     "limitsTitle": "What this cannot check",
-    "limitsBody": "Weapon class is not recorded for most of the roster, so the builder cannot tell whether the team carries a healer (Grimoire), nor apply the rule that a healer restores more HP to an ally of its own element. Check those by eye."
+    "limitsBody": "Healer checks now work from weapon class. Only Kururu is still unknown, because two wikis disagree about her. The Assist bonus cannot be calculated: the game derives it from the summed Assist stats of your own units, which depend on your levels and gear.",
+    "noticeNoHealer": "No healer. Nobody on the team carries a Grimoire, the only weapon class that restores ally HP.",
+    "noticeHealerUnknown": "Cannot tell whether the team has a healer: {count} member(s) have no weapon class recorded.",
+    "noticeHealerElement": "{healers} healer(s), element {element}. {count} ally/allies share that element and will be healed for more.",
+    "weaponTitle": "Weapon",
+    "presetTitle": "Recommended teams",
+    "presetLoad": "Load this team",
+    "presetCredit": "Roster from {credit}",
+    "presetNote": "These rosters are recorded from {credit} as starting points to adapt. Every word of explanation on this page is written here, not copied from the source.",
+    "presets": {
+      "collapse-passion": "Collapse, Passion-leaning",
+      "collapse-no-lux-nova": "Collapse, without Lux Nova units",
+      "void-poison-impact": "Void and poison, Impact-leaning",
+      "gale-front": "Gale, front-line push",
+      "free-to-play": "Free to play, SR and R only"
+    },
+    "presetNotes": {
+      "collapse-passion": "All seven combat units (1 Front, 6 Back) hold Crest: Passion, so every one of them qualifies to join a chain on the Passion Mana Crystal [Collapse], which deepens the enemy Defense DOWN by a further 7.5% per qualifying participant. Two Grimoire healers cover the line between them by element: Myrtille (Earth) heals Henrietta and Magnolia for more, Lycorit (Fire) does the same for Wisteria, Awakened Verisa and Rusita. The fragile part is the single Front unit: Henrietta holds the line alone.",
+      "collapse-no-lux-nova": "The same idea for players without Lux Nova units, dropping Myrtille and Pico. The cost is the Earth healer: only Lycorit (Fire) remains, so Henrietta and Magnolia no longer get the same-element healing bonus. Christie, who replaces Myrtille, holds Crest: Impact and cannot join a Passion chain, leaving six qualifying units instead of seven.",
+      "void-poison-impact": "The mirror image in Impact: all six Back units hold Crest: Impact, feeding chains on Impact Mana Crystal [Void] and [Poison], both Back-slot crystals that need an ally holding Impact at level 5 or higher. Henrietta is still the only wall despite holding the opposite crest, because her job is absorbing damage rather than joining the chain. Frederica is the healer, and her Dark element matches Christie and Liella.",
+      "gale-front": "Inverted to Front 6 / Back 1 to push the Impact Mana Crystal [Gale], the Impact crystal in the Front slot. Naia, Scarlet, Film and Chihiro hold Impact, exactly filling the chain cap of 4 that Gale allows. Carla and Orelina add bodies but hold Passion, so they cannot join it. The numbers expose one risk: the only healer is Lycorit, and nobody in the combat line shares her Fire element, so nothing gets the same-element healing bonus even though six Front units are absorbing hits.",
+      "free-to-play": "No SSR at all: seven SR and three R. At Front 3 / Back 4 it sits closest to the recommended baseline of the five teams here. The crests split 6 Passion / 4 Impact, which is the natural limit of a team built without pulls. Noemi (Earth) is the healer and shares her element with Shannon. Worth noting: Himari is only SR but her base line of 3168 / 1640 / 952 stands with several SSR units."
+    }
   },
   "dataStatus": {
     "label": "Data status",

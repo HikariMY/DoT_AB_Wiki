@@ -4,6 +4,7 @@ import { getTranslations, setRequestLocale } from "next-intl/server";
 
 import { TeamBuilder } from "@/components/team-builder";
 import { characters } from "@/lib/characters";
+import { recommendedTeams } from "@/lib/recommended-teams";
 import { PARTY_SIZE, RECOMMENDED_BACK, RECOMMENDED_FRONT } from "@/lib/game";
 
 export async function generateMetadata({
@@ -40,7 +41,7 @@ export default async function TeamPage({
       </header>
       {/* The shared team is read from the query string on the client. */}
       <Suspense fallback={null}>
-        <TeamBuilder roster={characters} />
+        <TeamBuilder roster={characters} presets={recommendedTeams} />
       </Suspense>
     </div>
   );

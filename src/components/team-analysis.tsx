@@ -4,15 +4,18 @@ import { useTranslations } from "next-intl";
 
 import { CrestBadge, ElementBadge, StanceTag } from "@/components/badges";
 import { CRESTS, ELEMENTS, STANCES } from "@/lib/game";
-import type { TeamAnalysis, TeamNotice } from "@/lib/team";
+import type { TeamAnalysis, TeamNotice, TeamNoticeCode } from "@/lib/team";
 
-const NOTICE_MESSAGE_KEY = {
+const NOTICE_MESSAGE_KEY: Record<TeamNoticeCode, string> = {
   "over-capacity": "noticeOverCapacity",
   "front-short": "noticeFrontShort",
   "back-short": "noticeBackShort",
   "no-assist": "noticeNoAssist",
+  "no-healer": "noticeNoHealer",
+  "healer-unknown": "noticeHealerUnknown",
+  "healer-element": "noticeHealerElement",
   "crest-minority": "noticeCrestMinority",
-} as const;
+};
 
 const NOTICE_CLASS = {
   error: "border-red-500/40 bg-red-500/10 text-red-200",

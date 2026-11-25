@@ -6,6 +6,7 @@ import { useTranslations } from "next-intl";
 
 import { TeamAnalysisPanel } from "@/components/team-analysis";
 import { TeamPicker } from "@/components/team-picker";
+import { TeamPresets } from "@/components/team-presets";
 import { TeamSlotList } from "@/components/team-slot-list";
 import { PARTY_SIZE } from "@/lib/game";
 import {
@@ -15,13 +16,14 @@ import {
   parseTeamParam,
   serialiseTeam,
 } from "@/lib/team";
-import type { Character } from "@/lib/schema";
+import type { Character, RecommendedTeam } from "@/lib/schema";
 
 interface TeamBuilderProps {
   roster: readonly Character[];
+  presets: readonly RecommendedTeam[];
 }
 
-export function TeamBuilder({ roster }: TeamBuilderProps) {
+export function TeamBuilder({ roster, presets }: TeamBuilderProps) {
   const t = useTranslations("team");
   const searchParams = useSearchParams();
   const [team, setTeam] = useState<readonly string[]>(() =>
@@ -79,12 +81,20 @@ export function TeamBuilder({ roster }: TeamBuilderProps) {
 
   return (
     <div className="grid gap-5 lg:grid-cols-[22rem_1fr] lg:items-start">
-      <TeamPicker
-        roster={roster}
-        selected={team}
-        isFull={isFull}
-        onToggle={toggle}
-      />
+      <div className="flex flex-col gap-5">
+        <TeamPicker
+          roster={roster}
+          selected={team}
+          isFull={isFull}
+          onToggle={toggle}
+        />
+        <TeamPresets
+          presets={presets}
+          roster={roster}
+          activeSlugs={team}
+          onLoad={commit}
+        />
+      </div>
 
       <div className="flex flex-col gap-5">
         <div className="panel flex flex-col gap-4 p-4">

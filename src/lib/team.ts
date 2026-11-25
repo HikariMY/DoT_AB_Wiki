@@ -1,6 +1,7 @@
 import {
   CRESTS,
   ELEMENTS,
+  HEALER_WEAPON_CLASS,
   PARTY_SIZE,
   RECOMMENDED_BACK,
   RECOMMENDED_FRONT,
@@ -22,6 +23,9 @@ export type TeamNoticeCode =
   | "front-short"
   | "back-short"
   | "no-assist"
+  | "no-healer"
+  | "healer-unknown"
+  | "healer-element"
   | "crest-minority";
 
 export type TeamNoticeSeverity = "error" | "warning" | "info";
@@ -112,6 +116,44 @@ function buildNotices(
 
   if (byStance.Assist === 0) {
     notices.push({ code: "no-assist", severity: "warning", values: {} });
+  }
+
+  const healers = members.filter(
+    (member) => member.weaponClass === HEALER_WEAPON_CLASS,
+  );
+  const unknownWeapon = members.filter((member) => member.weaponClass === null);
+
+  if (healers.length === 0) {
+    notices.push(
+      unknownWeapon.length === 0
+        ? { code: "no-healer", severity: "warning", values: {} }
+        : {
+            code: "healer-unknown",
+            severity: "info",
+            values: { count: unknownWeapon.length },
+          },
+    );
+  } else {
+    // A healer restores more HP to an ally sharing its element, so the size of
+    // that overlap is worth surfacing.
+    const covered = healers.reduce((best, healer) => {
+      const sameElement = members.filter(
+        (member) =>
+          member.slug !== healer.slug && member.element === healer.element,
+      ).length;
+
+      return Math.max(best, sameElement);
+    }, 0);
+
+    notices.push({
+      code: "healer-element",
+      severity: "info",
+      values: {
+        healers: healers.length,
+        element: healers[0]?.element ?? "",
+        count: covered,
+      },
+    });
   }
 
   const dominant = dominantCrest(byCrest);
