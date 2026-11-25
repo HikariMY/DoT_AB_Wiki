@@ -88,7 +88,7 @@ back to a monogram tile, so the gallery can be filled in gradually.
 ```
 messages/              translation catalogs (th, en)
 public/characters/     character icons and key art
-src/app/[locale]/      pages: home, characters, characters/[slug]
+src/app/[locale]/      pages: home, characters, characters/[slug], team, equipment
 src/components/        UI components
 src/data/              game data (JSON)
 src/i18n/              next-intl routing, request config, navigation

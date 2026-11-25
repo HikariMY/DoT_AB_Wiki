@@ -114,4 +114,9 @@ something imported a server-only API by accident.
 - 26 of the 48 equipment rows carry the party-unique clause. An earlier
   reading of the source counted 29; the row-level data here is what was
   actually read, so re-check the source if the count matters.
-- Not built yet: team builder, enemies, events, guides, tier list.
+- Not built yet: enemies, events, guides, tier list.
+- The team builder checks only what the data supports: stance balance against
+  the Front 4 / Back 3 baseline, Assist coverage, and crest majority. It cannot
+  check for a healer or apply the same-element healing rule, because weapon
+  class is recorded for almost no one. Do not add a check that pretends
+  otherwise.
