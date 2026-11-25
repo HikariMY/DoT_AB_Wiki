@@ -1,0 +1,72 @@
+import { describe, expect, it } from "vitest";
+
+import { characters, countBy, getCharacter, getRelatedVersions } from "@/lib/characters";
+import { CREST_BY_ELEMENT } from "@/lib/game";
+
+describe("roster data", () => {
+  it("loads the full roster", () => {
+    expect(characters).toHaveLength(86);
+  });
+
+  it("has the documented rarity distribution", () => {
+    const byRarity = countBy(characters, (character) => character.rarity);
+
+    expect(byRarity).toEqual({ SSR: 53, SR: 17, R: 16 });
+  });
+
+  it("uses a unique slug per character", () => {
+    const slugs = new Set(characters.map((character) => character.slug));
+
+    expect(slugs.size).toBe(characters.length);
+  });
+
+  it("keeps crest consistent with element for every character", () => {
+    const mismatched = characters.filter(
+      (character) => character.crest !== CREST_BY_ELEMENT[character.element],
+    );
+
+    expect(mismatched).toEqual([]);
+  });
+});
+
+describe("getCharacter", () => {
+  it("finds a character by slug", () => {
+    expect(getCharacter("anri")?.name).toBe("Anri");
+  });
+
+  it("returns undefined for an unknown slug", () => {
+    expect(getCharacter("not-a-character")).toBeUndefined();
+  });
+});
+
+describe("character detail merge", () => {
+  it("attaches detail to the character that has a detail file", () => {
+    const anri = getCharacter("anri");
+
+    expect(anri?.detail?.skills).toHaveLength(1);
+    expect(anri?.detail?.passives).toHaveLength(3);
+    expect(anri?.detail?.skills[0]?.forceChainEffect).toContain("200%");
+  });
+
+  it("leaves detail null for a roster-only character", () => {
+    expect(getCharacter("betty")?.detail).toBeNull();
+  });
+});
+
+describe("getRelatedVersions", () => {
+  it("links an alt version to its base unit", () => {
+    const swimsuitNina = getCharacter("swimsuit-nina");
+    const related = getRelatedVersions(swimsuitNina!);
+
+    expect(related.map((character) => character.slug)).toEqual(["nina"]);
+  });
+
+  it("returns nothing for a character with no alt version", () => {
+    expect(getRelatedVersions(getCharacter("anri")!)).toEqual([]);
+  });
+
+  it("records differing attributes between a base unit and its alt", () => {
+    expect(getCharacter("nina")?.element).toBe("Light");
+    expect(getCharacter("swimsuit-nina")?.element).toBe("Neutral");
+  });
+});

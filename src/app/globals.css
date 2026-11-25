@@ -1,0 +1,97 @@
+@import "tailwindcss";
+
+/*
+ * Dot Abyss Wiki theme.
+ * Palette follows the game's own identity: a dark subterranean "Abyss" ground
+ * with a single warm light accent, plus one colour per in-game element.
+ */
+@theme {
+  --color-abyss-950: #07050c;
+  --color-abyss-900: #0a0710;
+  --color-abyss-850: #110d1a;
+  --color-abyss-800: #171320;
+  --color-abyss-700: #211b2e;
+  --color-abyss-600: #2e2640;
+  --color-abyss-500: #463a60;
+  --color-abyss-400: #6b5c8a;
+  --color-abyss-300: #9a8cb8;
+  --color-abyss-200: #c9c0dd;
+  --color-abyss-100: #ece8f4;
+
+  --color-gold-500: #e8c170;
+  --color-gold-400: #f2d492;
+  --color-gold-600: #c79e4c;
+
+  --color-element-fire: #ff5a3c;
+  --color-element-water: #3ba9ff;
+  --color-element-earth: #7cb342;
+  --color-element-light: #ffd35a;
+  --color-element-dark: #a855f7;
+  --color-element-neutral: #9ca3af;
+
+  --color-crest-passion: #ff8a4c;
+  --color-crest-impact: #7cc5ff;
+
+  --color-rarity-ssr: #e8c170;
+  --color-rarity-sr: #c4a6ff;
+  --color-rarity-r: #8fa3bd;
+
+  --font-sans: var(--font-body);
+  --font-display: var(--font-display);
+
+  --radius-panel: 0.75rem;
+}
+
+/* Damage-number colour code used by the game itself: white normal,
+ * red element advantage, blue element disadvantage. */
+@theme {
+  --color-dmg-normal: #f5f3ff;
+  --color-dmg-advantage: #ff6b5e;
+  --color-dmg-disadvantage: #5eb4ff;
+}
+
+html {
+  color-scheme: dark;
+}
+
+body {
+  background-color: var(--color-abyss-900);
+  color: var(--color-abyss-100);
+  background-image:
+    radial-gradient(
+      ellipse 80% 50% at 50% -10%,
+      color-mix(in oklab, var(--color-gold-500) 10%, transparent),
+      transparent
+    ),
+    radial-gradient(
+      ellipse 60% 60% at 50% 110%,
+      color-mix(in oklab, var(--color-element-dark) 12%, transparent),
+      transparent
+    );
+  background-attachment: fixed;
+}
+
+/* Pixel art must never be smoothed. */
+.pixelated {
+  image-rendering: pixelated;
+}
+
+::selection {
+  background-color: color-mix(in oklab, var(--color-gold-500) 35%, transparent);
+}
+
+@layer components {
+  .panel {
+    border-radius: var(--radius-panel);
+    border: 1px solid var(--color-abyss-600);
+    background-color: color-mix(in oklab, var(--color-abyss-800) 85%, transparent);
+  }
+
+  .panel-heading {
+    font-family: var(--font-display);
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--color-gold-500);
+  }
+}

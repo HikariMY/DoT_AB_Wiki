@@ -1,0 +1,41 @@
+{
+  "slug": "anri",
+  "profile": {
+    "title": "Devout Fanatic",
+    "likes": "Praying to God",
+    "dislikes": "Apostasy",
+    "birthday": "June 6th",
+    "releaseDate": "2026-11-20",
+    "howToRecruit": "Limited Banner"
+  },
+  "description": "A Perdion zealot who pays for every swing with her own blood. Anri spends Crest: Impact to convert self-inflicted damage into party-wide offence.",
+  "skills": [
+    {
+      "name": "Blood Chain",
+      "charge": 50,
+      "effect": "Deals [3 HIT / Total 120%] damage to all enemies in the front area. Consumes [20%] of own Max HP (cannot drop below 1 HP). Grants self a barrier worth [40%] of Max HP for [30 seconds].",
+      "forceChainEffect": "Self Skill DMG UP [8%] [Accumulative / Max 40%]. Consumes 5 Crest: Impact to raise the damage multiplier to [200%]."
+    }
+  ],
+  "passives": [
+    {
+      "name": "Execution Stance",
+      "effect": "After 2 normal attacks, the next normal attack becomes [1 HIT / Total 150%]. Evasion Rate UP [7%] [Accumulative / Max 35%].",
+      "awakenedEffect": "Attack, Defense and Max HP +[9.5%]."
+    },
+    {
+      "name": "Twisted Loyalty",
+      "effect": "On skill activation, all front allies gain CRIT Rate UP [15% / 10 seconds]. Self gains +[1] Crest: Impact.",
+      "awakenedEffect": "Own Evasion Rate +[19.1%]."
+    },
+    {
+      "name": "Rebellion",
+      "effect": "When Crest: Impact is consumed, all Light, Dark or Neutral allies gain Attack UP [25% / 15 seconds]. Self gains Skill Charge Efficiency UP [40% / 15 seconds] and +[1] Crest: Impact.",
+      "awakenedEffect": "At battle start, self gains +[8] Crest: Impact (once per quest)."
+    }
+  ],
+  "bondPassive": null,
+  "facilitySkill": "Serves Drinks to up to 3 random Perdion staff, raising their Satisfaction by +20%.",
+  "source": "https://dotabyss.miraheze.org/wiki/Anri",
+  "lastVerified": "2026-11-25"
+}
